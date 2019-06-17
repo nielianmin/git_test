@@ -1,0 +1,30 @@
+//local 
+git init   --->repo
+
+git add .  --->index(stage)
+
+git commit -m "first commit" --->HEAD
+
+//unstage
+git checkout git.txt --> stage file cover local file
+
+git reset HEAD git.txt  ---> HEAD file cover stage file
+
+//branch
+git branch other
+
+git checkout master
+
+git merge other
+
+git branch -D other
+
+//remote
+git clone https://github.com/nielianmin/git_test.git
+
+git add .
+
+git commit -m "first commit"
+
+git push origin master 
+
